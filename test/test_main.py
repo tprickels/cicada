@@ -1,3 +1,6 @@
+'''
+Testing app.main
+'''
 import logging
 import unittest
 from unittest.mock import patch
@@ -19,7 +22,4 @@ class TestSum(unittest.TestCase):
         mock_warning.assert_called()
 
 if __name__ == '__main__':
-    '''
-    Testing Entrypoint
-    '''
     unittest.main()
